@@ -11,15 +11,15 @@ class TasksTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Task::class)->create([
+        factory(App\Models\Task::class)->create([
             'name'=>'Estudar PHP',
             'complete'=>false
         ]);
-        factory(App\Task::class)->create([
+        factory(App\Models\Task::class)->create([
             'name'=>'Estudar Laravel',
             'complete'=>false
         ]);
-        factory(App\Task::class)->create([
+        factory(App\Models\Task::class)->create([
             'name'=>'Estudar JavaScript',
             'complete'=>false
         ]);
